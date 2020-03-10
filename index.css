@@ -1,0 +1,68 @@
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Roboto;
+  font-style: normal;
+  max-width: 1800px;
+
+  margin: 0 auto;
+}
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  width: 100%;
+  margin-left: 5%;
+}
+
+.main {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  min-width: 650px;
+}
+.coin {
+  position: relative;
+  width: 172px;
+  height: 172px;
+  margin-top: 15px;
+  margin-left: 60px;
+}
+.percentage {
+  position: absolute;
+  text-align: center;
+  width: 35px;
+  right: 5px;
+  top: 25px;
+  color: white;
+  background-color: #833ae0;
+  border-radius: 50%;
+  padding: 8px;
+}
+.text {
+  margin-top: 15px;
+  width: 400px;
+}
+.price {
+  margin-top: 15px;
+  margin-right: 100px;
+  font-weight: bold;
+  color: #000000;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+
+li {
+  list-style-type: none;
+}
+
+span {
+  font-size: 14px;
+  font-weight: initial;
+  color: grey;
+}
+p {
+  line-height: 1px;
+  white-space: nowrap;
+}
